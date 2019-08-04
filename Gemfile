@@ -18,4 +18,3 @@ gem 'sorbet-rails'
 gem 'redis' # for sorbet and cache_store
 gem 'dalli' # for sorbet and cache_store
 gem 'rails', :group => :development # for sorbet
-
