@@ -15764,6 +15764,8 @@ class Rails::Html::Sanitizer
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
+Rails::Html::WhiteListSanitizer = Rails::Html::SafeListSanitizer
+
 module Rails::Info
   def properties(); end
 
